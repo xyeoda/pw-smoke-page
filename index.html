@@ -1,8 +1,13 @@
 <!doctype html>
-<html><head><title>Smoke Widget</title></head>
+<html><head><title>Smoke Widget</title>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Product","name":"Smoke Widget",
+ "offers":{"@type":"Offer","price":"100.00","priceCurrency":"USD","availability":"https://schema.org/InStock"}}
+</script>
+</head>
 <body>
 <h1>Smoke Widget</h1>
 <p class="availability">In stock</p>
-<span class="price">$100.00</span>
+<span class="price" itemprop="price" content="100.00">$100.00</span>
 <button>Add to cart</button>
 </body></html>
